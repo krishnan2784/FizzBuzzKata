@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz.Services
 {
-    public class FizzBuzzService
+    public static class FizzBuzzService
     {
+        public static string Translate(int i)
+        {
+            return i.ToString();
+        }
     }
 }
