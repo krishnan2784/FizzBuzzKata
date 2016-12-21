@@ -68,6 +68,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz.Services\FizzBuzz.Services.csproj">
+      <Project>{4aa4d8a4-4733-4d7a-9270-2b9b3042ea8e}</Project>
+      <Name>FizzBuzz.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
